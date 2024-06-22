@@ -31,3 +31,16 @@ body {
     text-wrap: balance;
   }
 }
+
+.grid-line {
+  width: 1px;
+  --guideDashedColor: #7e7e7e55;
+  background: linear-gradient(
+    180deg,
+    var(--guideDashedColor),
+    var(--guideDashedColor) 50%,
+    transparent 0,
+    transparent
+  );
+  background-size: 1px 8px;
+}
